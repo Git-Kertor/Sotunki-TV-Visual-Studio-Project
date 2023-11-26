@@ -61,8 +61,6 @@ namespace Sotunki_TV {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         public static void Main() {
-            SplashScreen splashScreen = new SplashScreen("resources/splash_screen.png");
-            splashScreen.Show(true);
             Sotunki_TV.App app = new Sotunki_TV.App();
             app.InitializeComponent();
             app.Run();

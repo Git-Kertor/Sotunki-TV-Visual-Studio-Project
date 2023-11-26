@@ -19,7 +19,7 @@ namespace Sotunki_TV.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -166,16 +166,6 @@ namespace Sotunki_TV.Properties {
         internal static System.Drawing.Bitmap _1_1__1_ {
             get {
                 object obj = ResourceManager.GetObject("_1_1__1_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__10_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__10_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,139 +333,9 @@ namespace Sotunki_TV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1_1__26_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__26_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__27_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__27_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__28_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__28_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__29_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__29_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _1_1__3_ {
             get {
                 object obj = ResourceManager.GetObject("_1_1__3_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__30_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__30_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__31_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__31_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__32_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__32_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__33_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__33_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__34_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__34_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__35_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__35_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__36_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__36_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__37_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__37_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1_1__38_ {
-            get {
-                object obj = ResourceManager.GetObject("_1_1__38_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -621,71 +481,11 @@ namespace Sotunki_TV.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Backround_Official {
-            get {
-                object obj = ResourceManager.GetObject("Backround_Official", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] Barlow_Regular {
-            get {
-                object obj = ResourceManager.GetObject("Barlow_Regular", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap EnhancedBackroudn {
-            get {
-                object obj = ResourceManager.GetObject("EnhancedBackroudn", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] GothamRounded_Medium {
-            get {
-                object obj = ResourceManager.GetObject("GothamRounded_Medium", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] GTWalsheimPro_RegularOblique {
-            get {
-                object obj = ResourceManager.GetObject("GTWalsheimPro_RegularOblique", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap HSL_logo_svg {
-            get {
-                object obj = ResourceManager.GetObject("HSL_logo_svg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon icon_app_HJC_icon {
+        internal static System.Drawing.Icon application_icon {
             get {
-                object obj = ResourceManager.GetObject("icon_app_HJC_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("application_icon", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -693,9 +493,49 @@ namespace Sotunki_TV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Image_Default {
+        internal static System.Drawing.Bitmap background {
             get {
-                object obj = ResourceManager.GetObject("Image_Default", resourceCulture);
+                object obj = ResourceManager.GetObject("background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Barlow {
+            get {
+                object obj = ResourceManager.GetObject("Barlow", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] GothamRounded {
+            get {
+                object obj = ResourceManager.GetObject("GothamRounded", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] GTWalsheimPro {
+            get {
+                object obj = ResourceManager.GetObject("GTWalsheimPro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hsl_logo {
+            get {
+                object obj = ResourceManager.GetObject("hsl_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -703,9 +543,9 @@ namespace Sotunki_TV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Instagram_Picture {
+        internal static System.Drawing.Bitmap instagram_logo {
             get {
-                object obj = ResourceManager.GetObject("Instagram_Picture", resourceCulture);
+                object obj = ResourceManager.GetObject("instagram_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -713,9 +553,9 @@ namespace Sotunki_TV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap InstaIcon {
+        internal static System.Drawing.Bitmap instagram_placeholder {
             get {
-                object obj = ResourceManager.GetObject("InstaIcon", resourceCulture);
+                object obj = ResourceManager.GetObject("instagram_placeholder", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -723,9 +563,9 @@ namespace Sotunki_TV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap InstaLogo {
+        internal static System.Drawing.Bitmap loading_circle {
             get {
-                object obj = ResourceManager.GetObject("InstaLogo", resourceCulture);
+                object obj = ResourceManager.GetObject("loading_circle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -733,9 +573,9 @@ namespace Sotunki_TV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Loading_Circle {
+        internal static System.Drawing.Bitmap placeholder {
             get {
-                object obj = ResourceManager.GetObject("Loading_Circle", resourceCulture);
+                object obj = ResourceManager.GetObject("placeholder", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -743,9 +583,9 @@ namespace Sotunki_TV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Sotunki_TV_Backround {
+        internal static System.Drawing.Bitmap sotunkitv_logo {
             get {
-                object obj = ResourceManager.GetObject("Sotunki_TV_Backround", resourceCulture);
+                object obj = ResourceManager.GetObject("sotunkitv_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -753,9 +593,9 @@ namespace Sotunki_TV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Splash_Screen {
+        internal static System.Drawing.Bitmap splash_screen {
             get {
-                object obj = ResourceManager.GetObject("Splash_Screen", resourceCulture);
+                object obj = ResourceManager.GetObject("splash_screen", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -763,9 +603,9 @@ namespace Sotunki_TV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Startup_Backround {
+        internal static System.Drawing.Bitmap startup_background {
             get {
-                object obj = ResourceManager.GetObject("Startup_Backround", resourceCulture);
+                object obj = ResourceManager.GetObject("startup_background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

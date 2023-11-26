@@ -8,23 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/01d.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/01n.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/02d.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/02n.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/03d.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/03n.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/04d.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/04n.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/09d.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/09n.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/10d.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/10n.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/11d.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/11n.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/13d.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/13n.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/50d.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/50n.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("application_icon.ico")]
 
 

@@ -16,3 +16,21 @@ C:\Users\Kert\source\repos\Sotunki-TV\bin\Release\Newtonsoft.Json.xml
 C:\Users\Kert\source\repos\Sotunki-TV\obj\Release\Sotunki-TV.csproj.AssemblyReference.cache
 C:\Users\Kert\source\repos\Sotunki-TV\bin\Release\System.Diagnostics.DiagnosticSource.xml
 C:\Users\Kert\source\repos\Sotunki-TV\obj\Release\Sotunki-TV.csproj.Fody.CopyLocal.cache
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\MainWindow.baml
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\MainWindow.g.cs
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\App.g.cs
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV_MarkupCompile.cache
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.g.resources
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.csproj.GenerateResource.cache
+D:\Visual Studio Projects\Sotunki-TV\bin\Release\Sotunki-TV.exe.config
+D:\Visual Studio Projects\Sotunki-TV\bin\Release\Sotunki-TV.exe
+D:\Visual Studio Projects\Sotunki-TV\bin\Release\Sotunki-TV.pdb
+D:\Visual Studio Projects\Sotunki-TV\bin\Release\Newtonsoft.Json.xml
+D:\Visual Studio Projects\Sotunki-TV\bin\Release\System.Diagnostics.DiagnosticSource.xml
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki_TV.Properties.Resources.resources
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.csproj.Fody.CopyLocal.cache
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.csproj.CopyComplete
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.exe
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.pdb

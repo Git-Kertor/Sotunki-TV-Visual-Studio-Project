@@ -34,9 +34,9 @@ To enable these features, SotunkiTV relies on the following dependencies:
 
 To ensure proper functionality, place the necessary files in the correct directories:
 
-    Instagram API Key: Save the API Token in a text file located at C:\Sotunki-TV\account.txt. For guidance on obtaining the Instagram API Token, refer to this guide.
+    Instagram API Key: Save the API Token in a text file located at C:\Sotunki-TV\account.txt. For guidance on obtaining the Instagram API Token, refer to this guide: https://docs.oceanwp.org/article/487-how-to-get-instagram-access-token
 
-    DigiTransit API Key: Save the API key in a text file at C:\Sotunki-TV\digitransit.txt. Follow this guide for obtaining the DigiTransit API key.
+    DigiTransit API Key: Save the API key in a text file at C:\Sotunki-TV\digitransit.txt. Follow this: https://digitransit.fi/en/developers/api-registration/ for obtaining the DigiTransit API key.
 
     Custom Images: Place images in any of the specified directories:
         "G:\Oma Drive\Pictures"

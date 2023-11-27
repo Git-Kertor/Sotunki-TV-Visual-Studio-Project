@@ -1,7 +1,7 @@
 # SotunkiTV - Open Source Information TV Program
 
 Welcome to the official documentation for the SotunkiTV Project, a dynamic and versatile information TV program designed and developed using Windows Presentation Foundation (WPF) in Microsoft Visual Studio.
-Overview
+### Overview
 
 SotunkiTV is a single executable application that operates in fullscreen mode, seamlessly cycling through various animations. This project integrates diverse functionalities to display real-time information, making it a valuable asset for information dissemination.
 Features

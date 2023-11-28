@@ -45,7 +45,7 @@ To ensure proper functionality, place the necessary files in the correct directo
         "F:\My Drive\Pictures"
         "E:"
 
-    Adhere to the file naming convention: [name]_[order]_[duration]. For example, "pikkujoulut_1_8" indicates the first custom image with a display duration of 8 seconds.
+    Adhere to the file naming convention: [name]_[order].[duration]. For example, "pikkujoulut_1.8" indicates the first custom image with a display duration of 8 seconds.
 
 ## Project Structure
 

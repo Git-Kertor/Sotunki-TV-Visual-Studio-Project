@@ -34,3 +34,9 @@ D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.csproj.Fody.CopyLoca
 D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.csproj.CopyComplete
 D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.exe
 D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.pdb
+D:\Visual Studio Projects\Sotunki-TV\bin\Release\HtmlAgilityPack.xml
+D:\Visual Studio Projects\Sotunki-TV\bin\Release\System.Buffers.xml
+D:\Visual Studio Projects\Sotunki-TV\bin\Release\System.Memory.xml
+D:\Visual Studio Projects\Sotunki-TV\bin\Release\System.Numerics.Vectors.xml
+D:\Visual Studio Projects\Sotunki-TV\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\Visual Studio Projects\Sotunki-TV\obj\Release\Sotunki-TV.csproj.Fody.RuntimeCopyLocal.cache

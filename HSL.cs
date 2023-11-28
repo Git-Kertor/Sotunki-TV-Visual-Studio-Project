@@ -84,9 +84,9 @@ namespace Sotunki_TV
         {
             int secondsNow = CurrentTimeInSeconds();
 
-            List<string> busIdentifiers = new List<string>(); // Identifiers of the buses
-            List<string> busArrivalTimes = new List<string>(); // Arrival time in descriptive words example: 1 hr 30 min
-            List<int> arrivalTimes = new List<int>(); // Arrival time in minutes
+            string[] busIdentifiers = new string[5]; // Identifiers of the buses
+            string[] busArrivalTimes = new string[5]; // Arrival time in descriptive words example: 1 hr 30 min
+            int[] arrivalTimes = new int[5]; // Arrival time in minutes
 
             for (int i = 0; i < filteredRequest.Length; i++)
             {
@@ -94,21 +94,32 @@ namespace Sotunki_TV
                 {
                     // This should be a number, but just to be safe.
                     int arrivalTime = int.TryParse(filteredRequest[i], out arrivalTime) ? arrivalTime : 0;
-                    arrivalTime %= 86400; // Refer to the API Docs why the returned value could be more than 86400
-                    arrivalTime = Math.Abs(arrivalTime - secondsNow) / 60; // Convert seconds to minutes
-                    arrivalTimes.Add(arrivalTime); // Add the minutes to list
+                    if (arrivalTime > 86400) 
+                    {
+                        arrivalTime %= 86400;
+                        arrivalTime = Math.Abs(arrivalTime - (secondsNow - 86400)) / 60;
+                    }
+                    else
+                    {
+                        arrivalTime = Math.Abs(arrivalTime - secondsNow) / 60;
+                    }
+                    arrivalTimes[i / 2] = arrivalTime; // Add the minutes to list
                 }
                 else // Identifier of bus
                 {
-                    busIdentifiers.Add(filteredRequest[i]); // Add Identifier
+                    busIdentifiers[(i - 1) / 2] = filteredRequest[i]; // Add Identifier
                 }
             }
 
             // Convert minutes into descriptions, example: 1 hr 30 min
 
-            foreach(int time in arrivalTimes)
+            for(int i = 0; i < busArrivalTimes.Length; i++)
             {
+                int time = arrivalTimes[i];
+
                 int hours = (int)Math.Floor((double)time / 60.0); // Convert minutes to hours
+                Console.WriteLine("TIME IS: " + time);
+                Console.WriteLine("HOURS IS: " + hours);
                 int minutes = time - hours * 60; // Get leftover minutes
 
                 string hourDescription = (hours > 0) ? $"{hours} hr" : "";
@@ -118,14 +129,14 @@ namespace Sotunki_TV
                 if (hours == 0 && minutes < 2) { busArrivalTime = "Nyt"; } // Bus is coming now!
                 if (time < 0) { busArrivalTime = ""; }
 
-                busArrivalTimes.Add(busArrivalTime);
+                busArrivalTimes[i] = busArrivalTime;
             }
 
             // Make an array of Tuple(name, arrivalTime) for example: 717N, 1hr 30 min  
 
-            Tuple<string, string>[] result = new Tuple<string, string>[busIdentifiers.Count];
+            Tuple<string, string>[] result = new Tuple<string, string>[busIdentifiers.Length];
 
-            for(int i = 0; i < busIdentifiers.Count && i < busArrivalTimes.Count; i++)
+            for(int i = 0; i < busIdentifiers.Length; i++)
             {
                 result[i] = new Tuple<string, string>(busIdentifiers[i], busArrivalTimes[i]);
             }

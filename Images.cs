@@ -67,8 +67,8 @@ namespace Sotunki_TV {
         };
 
         // The image files stored in the image folder should be named accordingly:
-        // [name]_[order of appearance].[time spent on image]
-        // example: "event_1.8" (This image will appear first and stay on screen for 8 seconds)
+        // [name]_[display duration].[order for files with same name]
+        // example: "event_8.1" (This image will appear first and stay on screen for 8 seconds)
         // This function returns the delay aspect from the name (if there is one)
         private int GetCustomImageDelay(string Name)
         {

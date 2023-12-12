@@ -118,8 +118,6 @@ namespace Sotunki_TV
                 int time = arrivalTimes[i];
 
                 int hours = (int)Math.Floor((double)time / 60.0); // Convert minutes to hours
-                Console.WriteLine("TIME IS: " + time);
-                Console.WriteLine("HOURS IS: " + hours);
                 int minutes = time - hours * 60; // Get leftover minutes
 
                 string hourDescription = (hours > 0) ? $"{hours} hr" : "";

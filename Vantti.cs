@@ -49,7 +49,7 @@ namespace Sotunki_TV
                 var doc = web.Load(VanttiURL); // Load the HTML file from Vantti
                 var notVegan = GetTextContent(doc.DocumentNode.SelectSingleNode(Get_xPath(false)));
                 var vegan = GetTextContent(doc.DocumentNode.SelectSingleNode(Get_xPath(true)));
-                if (notVegan == null || vegan == null)
+                if (notVegan == null)
                 {
                     return "Ruokatietoja ei saatavilla! :(";
                 }
@@ -57,9 +57,18 @@ namespace Sotunki_TV
                 string topText =
                     "Lounas                " + notVegan[0] + " " + notVegan[1] +
                     "\n                           " + notVegan[2] + " " + notVegan[3];
-                string bottomText =
+                string bottomText = "";
+
+                if (vegan != null) 
+                { 
+                    bottomText =
                     "Kasvislounas        " + vegan[0] + " " + vegan[1] +
                     "\n                           " + vegan[2] + " " + vegan[3];
+                }
+
+                topText = FixSpecialCharacters(topText);
+                bottomText = FixSpecialCharacters(bottomText);
+
                 return $"{topText}\n\n{bottomText}";
             }
             catch (Exception)
@@ -77,7 +86,7 @@ namespace Sotunki_TV
 
         private static string FixSpecialCharacters(string content)
         {
-            return content.Replace("Ã¶", "ö").Replace("Ã¤", "ä");
+            return content.Replace("&#228", "ä");
         }
     }
 }
